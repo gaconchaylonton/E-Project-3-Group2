@@ -214,7 +214,7 @@ namespace Online_Mobile_Recharge.Repository
         {
             if(userId == null || string.IsNullOrEmpty(newPassword))
             {
-                throw new ArgumentException("Vui long nhap mat khau moi");
+                throw new ArgumentException("Input New Password!");
             }
 
             if (!RegexManagement.IsValidPassword(newPassword))
