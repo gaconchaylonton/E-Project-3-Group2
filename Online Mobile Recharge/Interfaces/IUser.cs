@@ -10,5 +10,6 @@ namespace Online_Mobile_Recharge.Interfaces
 
 		bool ChangePassword(int userId, string newPassword);
 
+
 	}
 }

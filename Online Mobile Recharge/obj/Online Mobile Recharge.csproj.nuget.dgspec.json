@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nvhai272\\source\\repos\\Online Mobile Recharge\\Online Mobile Recharge.csproj": {}
+    "C:\\Users\\student\\Documents\\GitHub\\E-Project-3-Group2\\Online Mobile Recharge\\Online Mobile Recharge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nvhai272\\source\\repos\\Online Mobile Recharge\\Online Mobile Recharge.csproj": {
+    "C:\\Users\\student\\Documents\\GitHub\\E-Project-3-Group2\\Online Mobile Recharge\\Online Mobile Recharge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nvhai272\\source\\repos\\Online Mobile Recharge\\Online Mobile Recharge.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Documents\\GitHub\\E-Project-3-Group2\\Online Mobile Recharge\\Online Mobile Recharge.csproj",
         "projectName": "Online Mobile Recharge",
-        "projectPath": "C:\\Users\\nvhai272\\source\\repos\\Online Mobile Recharge\\Online Mobile Recharge.csproj",
-        "packagesPath": "C:\\Users\\nvhai272\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nvhai272\\source\\repos\\Online Mobile Recharge\\obj\\",
+        "projectPath": "C:\\Users\\student\\Documents\\GitHub\\E-Project-3-Group2\\Online Mobile Recharge\\Online Mobile Recharge.csproj",
+        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Documents\\GitHub\\E-Project-3-Group2\\Online Mobile Recharge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nvhai272\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -103,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

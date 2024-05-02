@@ -47,7 +47,7 @@ namespace Online_Mobile_Recharge.Controllers
 
 		[HttpPost]
 		[Route("create")]
-		public IActionResult CreateUser(UserRequest user)
+		public IActionResult CreateUser(UserRegisterDto user)
 		{
 			try
 			{
@@ -86,7 +86,7 @@ namespace Online_Mobile_Recharge.Controllers
 
 		}
 
-		[HttpGet]
+		[HttpPut]
 		[Route("delete/{id}")]
 		public IActionResult DeleteUserById(int id, UserRequestDel entity)
 		{
@@ -119,12 +119,12 @@ namespace Online_Mobile_Recharge.Controllers
 		}
 
 		[HttpPut]
-		[Route("changePassword/{userId}")]
-		public IActionResult UpdatePassword(int userId, string newPassword)
+		[Route("changePassword/{id}")]
+		public IActionResult UpdatePassword(int id, string newPassword)
 		{
 			try
 			{
-				var changePass = _crud.ChangePassword(userId, newPassword);
+				var changePass = _crud.ChangePassword(id, newPassword);
 				return Ok("Thanh cong");
 			}
 

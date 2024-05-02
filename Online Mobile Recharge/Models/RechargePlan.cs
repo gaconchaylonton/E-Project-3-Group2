@@ -32,7 +32,7 @@ namespace Online_Mobile_Recharge.Models
 		public decimal Price { get; set; }= 0;
 
 		[MaxLength(255)]
-		public string Description { get; set; }
+		public string? Description { get; set; }
 
 		public bool IsDeleted { get; set; } = false;
 

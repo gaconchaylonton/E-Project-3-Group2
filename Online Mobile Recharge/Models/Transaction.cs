@@ -28,8 +28,8 @@ namespace Online_Mobile_Recharge.Models
 		public DateTime ModifiedAt { get; set; } = DateTime.Now;
 
 		//khoa ngoai
-		public int UserId { get; set; }
-		public virtual User User { get; set; }
+		public int UserId { get; set; } = 0;
+		public virtual User User { get; set; } = null;
 
 		//khoa ngoai
 		public int ServiceId { get; set; }

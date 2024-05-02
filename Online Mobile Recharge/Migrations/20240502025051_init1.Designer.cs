@@ -12,7 +12,7 @@ using Online_Mobile_Recharge;
 namespace Online_Mobile_Recharge.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240426200648_init1")]
+    [Migration("20240502025051_init1")]
     partial class init1
     {
         /// <inheritdoc />
